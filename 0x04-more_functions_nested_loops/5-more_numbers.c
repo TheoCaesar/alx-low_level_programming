@@ -5,7 +5,7 @@
  *
  * Return: void
  */
-oid more_numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int a;
@@ -15,19 +15,8 @@ oid more_numbers(void)
 		for (i = 0; i < 15; i++)
 		{
 			if (i > 9)
-			{
-				int fn, ln;
-
-				fn = i / 10;
-				ln = i % 10;
-				int c;
-				int arr[] = {1, ln};
-
-				for (c = 0; c < 2; c++)
-					_putchar(arr[c] + '0');
-			}
-			else
-				_putchar(i + '0');
+				_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
 		}
 		putchar('\n');
 	}
