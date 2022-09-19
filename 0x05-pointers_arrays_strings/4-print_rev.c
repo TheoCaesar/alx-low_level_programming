@@ -18,9 +18,14 @@ void print_rev(char *s)
 		count++;
 	}
 
-	int count_2 = count;
-	char rev_s[count];
-	int num = 0;
+	int count_2;
+	char rev_s[100];
+	int num;
+	int c;
+
+	num = 0;
+
+	count_2 = count;
 
 	while (count)
 	{
@@ -29,7 +34,7 @@ void print_rev(char *s)
 		num++;
 	}
 
-	int c;
+	/* int c; */
 
 	for (c = 0; c < count_2; c++)
 	{
