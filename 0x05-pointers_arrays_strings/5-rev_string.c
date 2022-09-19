@@ -3,16 +3,16 @@
 
 /**
  *  * rev_string - check the code
- *   * @s: param s
+ * @s: param
  *    * Return: Always 0.
  */
 void rev_string(char *s)
 {
 	int i;
 	int count = 0;
+	int count_2 = 0;
 	char rev_s[1000];
 	int num = 0;
-	int count_2 = count;
 	int c;
 
 	for (i = 0; ; i++)
@@ -21,6 +21,8 @@ void rev_string(char *s)
 			break;
 		count++;
 	}
+
+	count_2 = count;
 
 	while (count)
 	{
