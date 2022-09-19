@@ -11,7 +11,7 @@ void print_rev(char *s)
 	int i;
 	int count = 0;
 	int count_2;
-	char rev_s[100];
+	char rev_s[500];
 	int num;
 	int c;
 
