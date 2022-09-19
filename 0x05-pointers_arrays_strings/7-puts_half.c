@@ -28,14 +28,7 @@ void puts_half(char *str)
 	else
 		half = (count - 1) / 1;
 
-	while (count)
-	{
-		rev_s[num] = str[count - 1];
-		count--;
-		num++;
-	}
-
-	for (i = half - 1; i >= 0; i--)
+	for (i = half; i < count; i++)
 		_putchar(rev_s[i]);
 
 	_putchar('\n');
