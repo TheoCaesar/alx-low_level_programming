@@ -10,6 +10,10 @@ void print_rev(char *s)
 {
 	int i;
 	int count = 0;
+	int count_2;
+	char rev_s[100];
+	int num;
+	int c;
 
 	for (i = 0; ; i++)
 	{
@@ -18,13 +22,7 @@ void print_rev(char *s)
 		count++;
 	}
 
-	int count_2;
-	char rev_s[100];
-	int num;
-	int c;
-
 	num = 0;
-
 	count_2 = count;
 
 	while (count)
