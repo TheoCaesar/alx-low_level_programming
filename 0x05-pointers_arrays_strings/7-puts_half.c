@@ -37,5 +37,7 @@ void puts_half(char *str)
 
 	for (i = half - 1; i >= 0; i--)
 		_putchar(rev_s[i]);
+
+	_putchar('\n')
 }
 
