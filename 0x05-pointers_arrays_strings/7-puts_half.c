@@ -35,7 +35,7 @@ void puts_half(char *str)
 		num++;
 	}
 
-	for (i = 0; i < half; i++)
+	for (i = half; i > 0; i++)
 		putchar(rev_s[i]);
 }
 
