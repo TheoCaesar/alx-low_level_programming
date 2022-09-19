@@ -10,7 +10,6 @@ void puts_half(char *str)
 	int i;
 	int count = 0;
 	int half;
-	int num = 0;
 	char rev_s[300];
 
 
