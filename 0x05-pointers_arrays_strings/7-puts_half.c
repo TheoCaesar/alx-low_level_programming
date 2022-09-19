@@ -11,7 +11,7 @@ void puts_half(char *str)
 	int count = 0;
 	int half;
 	int num = 0;
-	char rev_s[100];
+	char rev_s[300];
 
 
 	for (i = 0; ; i++)
@@ -35,7 +35,7 @@ void puts_half(char *str)
 		num++;
 	}
 
-	for (i = half-1; i >= 0; i--)
-		putchar(rev_s[i]);
+	for (i = half - 1; i >= 0; i--)
+		_putchar(rev_s[i]);
 }
 
