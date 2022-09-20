@@ -29,7 +29,7 @@ void puts_half(char *str)
 	{
 		if (count > 200)
 		{
-			if (*str[i] != 'n')
+			if (*str[i] != 110)
 				continue;
 		}
 		else
