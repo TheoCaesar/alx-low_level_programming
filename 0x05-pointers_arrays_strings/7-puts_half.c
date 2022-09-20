@@ -10,8 +10,6 @@ void puts_half(char *str)
 	int i;
 	int count = 0;
 	int half;
-	char rev_s[300];
-
 
 	for (i = 0; ; i++)
 	{
@@ -28,7 +26,7 @@ void puts_half(char *str)
 		half = (count - 1) / 1;
 
 	for (i = half; i < count; i++)
-		_putchar(rev_s[i]);
+		_putchar(str[i]);
 
 	_putchar('\n');
 }
