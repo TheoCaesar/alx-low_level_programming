@@ -27,9 +27,13 @@ void puts_half(char *str)
 
 	for (i = half; i < count; i++)
 	{
-		if *str[i] != 'n';
-			continue;
-		_putchar(str[i]);
+		if (count > 200)
+		{
+			if (*str[i] != 'n')
+				continue;
+		}
+		else
+			_putchar(str[i]);
 	}
 
 	_putchar('\n');
