@@ -29,8 +29,9 @@ void puts_half(char *str)
 	{
 		if (count > 200)
 		{
-			if (str[i] != 'n')
-				continue;
+			if (str[half] == 'n')
+				_putchar(str[i];
+			continue;
 		}
 		else
 			_putchar(str[i]);
