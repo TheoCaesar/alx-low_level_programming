@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * * main - check the code
- * *@dest: param
+ * *_strcpy - check the code
+ * @dest: param
  * @src: param2
  * * Return: Always 0.
  */
