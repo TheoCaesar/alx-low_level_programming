@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	{
 		printf("%02x", opc[i] & 0xFF);
 		if (i != nbytes - 1)
-				printf(" ");
+			printf(" ");
 	}
 
 	printf("\n");
