@@ -4,14 +4,18 @@
  * * @h: pointer to the 1st node of the linked list
  * * Return: number of nodes
  */
-size_t listint_len(const listint_t *h)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	size_t nodenum = 0;
+	listint_t *new;
+	
+	new = malloc(sizeof(listint_t));
 
-	while (h)
-	{
-		nodenum++;
-		h = h->next;
-	}
-	return (nodenum);
+	if (new == NULL)
+		return (NULL);
+
+	new-> = n;
+	new->next = *head;
+	*head = new;
+
+	return (*head);
 }
